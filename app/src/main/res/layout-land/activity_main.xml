@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:app="http://schemas.android.com/apk/res-auto"
+xmlns:tools="http://schemas.android.com/tools"
+android:layout_width="match_parent"
+android:layout_height="match_parent"
+android:background="#FF0000"
+android:orientation="vertical"
+tools:context=".MainActivity">
+
+<ImageView
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_weight="3"
+    android:src="@drawable/tupac"
+    android:scaleType="centerCrop" />
+
+<TextView
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:textColor="@android:color/white"
+    android:padding="8dp"
+    android:text="TuPoc"
+    android:textSize="28sp"/>
+
+<TextView
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:textColor="@android:color/white"
+    android:layout_marginLeft="8dp"
+    android:paddingBottom="2dp"
+    android:text="Most talented in every aspect of art "
+    android:textSize="17sp"/>
+
+<TextView
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:textColor="@android:color/white"
+    android:layout_marginLeft="8dp"
+    android:paddingBottom="2dp"
+    android:text="No one has yet to create music as powerful and inovative"
+    android:textSize="17sp"/>
+
+<TextView
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginLeft="8dp"
+    android:paddingBottom="2dp"
+    android:textColor="@android:color/white"
+    android:text="Strengths: sold out record while in prison, song writer , Rapper , etc. "
+    android:textSize="17sp"/>
+
+<TextView
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:textColor="@android:color/white"
+    android:text="Weaknesses: Love"
+    android:layout_marginLeft="8dp"
+    android:layout_marginBottom="8dp"
+    android:textSize="17sp"/>
+
+
+</LinearLayout>
